@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ4</title>
+</head>
+
+<body>
+
+    <!-- mcq4: Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next? -->
+    <script>
+
+        let num = 22;
+        let i = 1;
+
+        document.write(num + ", ");
+
+        do {
+            if (i % 2 !== 0) 
+            {
+                num -= 1;
+            } else
+             { 
+                num += 2;
+            }
+            document.write(num + ", " );
+            i++;
+        } while (i < 10);
+
+    </script>
+</body>
+
+</html>
