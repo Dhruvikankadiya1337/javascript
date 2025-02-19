@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //  wap to print 1 to 10 table as explained in lec. : 1 to 70
+
+        let N = prompt("Enter the number of n");
+        N = Number(N);
+
+        function table(n) {
+            for (let i = 1; i <= 10; i++) { // Fixed loop to always print table up to 10
+                document.write(n + " x " + i + " = " + (i * n) + " <br>");
+            }
+            document.write("<br>");
+        }
+
+        table(N);
+
+
+        // function generateTable(num) {
+        //     document.write("<h2>Multiplication Table of " + num + "</h2>");
+        //     document.write("<table border='1' cellpadding='5' cellspacing='0'>");
+        //     for (let i = 1; i <= 10; i++) {
+        //         document.write("<tr><td>" + num + " x " + i + "</td><td>=</td><td>" + (num * i) + "</td></tr>");
+        //     }
+        //     document.write("</table><br>");
+        // }
+
+        // let userNumber = parseInt(prompt("Enter a number to generate its multiplication table:"));
+        // if (!isNaN(userNumber)) {
+        //     generateTable(userNumber);
+        // } else {
+        //     document.write("<p>Please enter a valid number.</p>");
+        // }
+
+    </script>
+</body>
+
+</html>
