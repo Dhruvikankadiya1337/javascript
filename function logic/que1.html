@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- wap to create calculator using udf & switch case. -->
+    <script>
+         let x = prompt("Enter first number: ");
+         let y = prompt("Enter second number: ");
+         let z = prompt("Enter yor choice (+, -, *, /): ");
+
+
+        function addition(a,b ) {
+                (a + "+" + b + "=" (a + b))
+        }
+        function subtraction(a, b) {
+            (a + "+" + b + "=" (a - b))
+        }
+
+        function multiply(a, b) {
+            (a + "+" + b + "=" (a * b))
+        }
+
+        function divide(a, b) {
+            (a + "+" + b + "=" (a / b))
+          
+        }
+        let a= 56;
+        let b = 45;
+        function calculator(operator) {
+
+            switch (operator) {
+                case '+':
+                    addition (a,b);
+                   break;
+                case '-':
+                     subtraction(a, b);
+                     break;
+                case '*':
+                   multiply (a,b);
+                    break;
+                case '/':
+                      divide(a, b);
+                     break;
+                default:
+                    document.write("Invalid operator!");
+            }
+        }
+        calculator(a,b);
+    </script>
+</body>
+
+</html>
