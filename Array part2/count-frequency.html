@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- count frequency of all charecter/element in string/array -->
+
+        <script>
+            let name = "pranav";
+            let count = 1;
+            for(let i = 0; i < name.length; i++) {
+                for(let j=1; j<count; j++){
+                    if(name[i] == name[j]){
+                        count++;
+                    }
+                }
+                document.write(name[i] + " - " + count + "<br>");
+            }
+          
+        </script>
+</body>
+</html>
