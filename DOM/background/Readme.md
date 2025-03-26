@@ -1,5 +1,7 @@
 //COLOR GENERATOR
 
+https://github.com/user-attachments/assets/1fd553a7-fad6-4fa3-b84d-ab95ad1629b1
+
 
 🚀 Random Background Color Generator 🎨
 
