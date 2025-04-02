@@ -1,59 +1,81 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-    body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #ccc;
-}
 
-.container{
-padding: 20px;
-width: 300px;
-margin: 0 auto;
-margin-top: 40px;
-background: white;
-border-radius: 5px;}
+body {
+    font: normal 13px/16px "Open Sans", sans-serif;
+    background: #ccc;
+}
+.container {
+    padding: 20px;
+    width: 300px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 5px;
+}
 
 form {
-display: inline-block;
+    display: inline-block;
 }
 
-input{
-padding: 4px 15px 4px 5px;
+input {
+    padding: 5px;
 }
 
-#button{
-display: inline-block;
-background-color:#fc999b;
-color:#ffffff;
-border-radius: 5px;
-text-align:center;
-margin-top:2px;
-padding: 5px 15px;
+#button {
+    display: inline-block;
+    background-color: #fc999b;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    width: 30%;
+    height: 25px;
+    padding: 5px;
 }
 
-#button:hover{
-cursor: pointer;
-opacity: .8;}
+#button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 ol {
-    padding-left: 20px;
+    padding-left: 0;
+    list-style-type: none;
 }
 
 ol li {
-    padding: 5px;color:#000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    color: #000;
+    background: white;
+    border-radius: 3px;
+    justify-content: space-between;
 }
 
-ol li:nth-child(even){
+ol li:nth-child(even) {
     background: #dfdfdf;
 }
 
-.strike{
+ol li input[type="radio"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.task-time {
+    font-size: 12px;
+    color: gray;
+}
+
+.strike {
+    color: gray;
     text-decoration: line-through;
 }
 
-li:hover{
-  cursor: pointer;
- }
+li:hover {
+    cursor: pointer;
+}
+
