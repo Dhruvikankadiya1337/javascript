@@ -1,0 +1,136 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+}
+h2 {
+    color: #ffffff;
+    font-size: 22px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}   
+.clock-border {
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.clock-border::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, red, yellow, green, cyan, blue, magenta, red);
+    animation: moveTop 2s linear infinite;
+}
+.clock-border::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, red, yellow, green, cyan, blue, magenta, red);
+    animation: moveBottom 2s linear infinite;
+}
+
+.clock-border .left-border {
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to bottom, red, yellow, green, cyan, blue, magenta, red);
+    animation: moveLeft 2s linear infinite;
+}
+
+.clock-border .right-border {
+    position: absolute;
+    bottom: -100%;
+    right: 0px;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to top, red, yellow, green, cyan, blue, magenta, red);
+    animation: moveRight 2s linear infinite;
+}
+
+@keyframes moveTop {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes moveBottom {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes moveLeft {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 100%;
+    }
+}
+
+@keyframes moveRight {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 100%;
+    }
+}
+
+.clock-box {
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 350px;
+}
+
+#digital-clock {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    color: #00eaff;
+    text-shadow: 2px 2px 15px rgba(0, 255, 255, 0.8);
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 2px 2px 15px rgba(0, 255, 255, 0.5);
+    }
+    to {
+        text-shadow: 2px 2px 25px rgba(0, 255, 255, 1);
+    }
+}
