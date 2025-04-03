@@ -1,12 +1,12 @@
 
 $(document).ready(function () {
   $('#button').click(function () {
-      var toAdd = $('input[name=ListItem]').val().trim();
+      let toAdd = $('input[name=ListItem]').val().trim();
 
       if (toAdd !== listItem) {
-          var currentDateTime = new Date().toLocaleString();
+          let currentDateTime = new Date().toLocaleString();
 
-          var listItem = '<li>' +
+          let listItem = '<li>' +
               '<input type="radio" class="task-radio"> ' +  '<span class="task-text">' + toAdd + '</span>' +
               ' <span class="task-time">(' + currentDateTime + ')</span>' +
             '</li>';
