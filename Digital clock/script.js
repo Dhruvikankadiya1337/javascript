@@ -5,8 +5,8 @@ $(document).ready(function () {
         const minutes = now.getMinutes();
         const seconds = now.getSeconds();
 
-        const timeString = hours + ":" + minutes + ":" + seconds;
-        $('#digital-clock').text(timeString);
+        const timeS = hours + ":" + minutes + ":" + seconds;
+        $('#digital-clock').text(timeS);
     }
 
     setInterval(updateClock, 1000);
