@@ -29,5 +29,7 @@ This project is a live digital clock built using HTML, CSS, and JavaScript. It d
 
 => Create dynamic, responsive, and interactive UIs
 
+https://github.com/user-attachments/assets/f726a190-09cd-4931-a2cb-29d8c7f5441a
+
 
 
