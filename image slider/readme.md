@@ -4,11 +4,11 @@ I'm super excited to share my latest project — a Responsive & Interactive Imag
 
 🔥 What makes it special?
 
-✅ Smooth transition effects
-✅ Stylish dot indicators & navigation buttons
-✅ Fully responsive on all devices
-✅ Clean UI with modern aesthetics
-✅ Easily customizable for portfolios or product galleries
+✅ Smooth transition effects.
+✅ Stylish dot indicators & navigation buttons.
+✅ Fully responsive on all devices.
+✅ Clean UI with modern aesthetics.
+✅ Easily customizable for portfolios or product galleries.
 
 This project challenged me to combine logic with creativity — and it turned out to be such a fun and rewarding learning experience! 💪💻
 
