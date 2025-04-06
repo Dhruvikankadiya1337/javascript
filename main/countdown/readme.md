@@ -16,4 +16,6 @@ I built it using HTML, CSS, and JavaScript, focusing on clean design and smooth 
 and adding animations using @keyframes.
 
 
+https://github.com/user-attachments/assets/04236421-da13-4dbb-a8b2-19b65ac3ad1d
+
 
