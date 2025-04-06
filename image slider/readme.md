@@ -3,6 +3,7 @@ I'm super excited to share my latest project — a Responsive & Interactive Imag
 🎨🧠
 
 🔥 What makes it special?
+
 ✅ Smooth transition effects
 ✅ Stylish dot indicators & navigation buttons
 ✅ Fully responsive on all devices
