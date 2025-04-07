@@ -3,9 +3,13 @@
 Developed a fully functional, responsive To-Do List web application aimed at enhancing task management and productivity. The project focuses on clean UI/UX design and dynamic interaction using core web technologies.
 
 Key Features:
+
 ✔️ Add, edit, delete, and mark tasks as complete
+
 ✔️ Tasks saved using browser's local storage (persistent data)
+
 ✔️ Responsive layout compatible with desktop and mobile devices
+
 ✔️ Smooth user interactions and intuitive design
 
 🛠️ Tech Stack:
