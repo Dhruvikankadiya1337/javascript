@@ -7,19 +7,17 @@ To build a fun and educational quiz website where users can answer 10 multiple-c
 
 🔥 Key Features:
 
-📝 10 Multiple Choice Questions (MCQs)
+✅  10 Multiple Choice Questions (MCQs)
 
-⏳ 60 seconds timer for each question
+✅  60 seconds timer for each question
 
 ✅ Shows Correct and ❌ Wrong messages
 
-📈 Progress bar that moves with each question
+✅  Progress bar that moves with each question
 
-🎉 Score display at the end of the quiz
+✅  Score display at the end of the quiz
 
-💫 Attractive UI with background & animations
-
-🧩 Built with jQuery for smooth interactivity
+✅  Attractive UI with background & animations
 
 🛠️ Technologies Used:
 
@@ -28,7 +26,5 @@ To build a fun and educational quiz website where users can answer 10 multiple-c
 🎨 CSS – Styling, layout, and animations
 
 🤖 JavaScript – Logic and functionality
-
-🧰 jQuery – Simplified DOM handling
 
 https://github.com/user-attachments/assets/465bec8d-f139-4be4-95ae-e0227431572d
