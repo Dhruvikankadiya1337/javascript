@@ -11,8 +11,6 @@ To build a fun and educational quiz website where users can answer 10 multiple-c
 
 ✅  60 seconds timer for each question
 
-✅ Shows Correct and ❌ Wrong messages
-
 ✅  Progress bar that moves with each question
 
 ✅  Score display at the end of the quiz
