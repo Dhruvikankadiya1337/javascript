@@ -1,4 +1,4 @@
-NOTE LIST  
+NOTE LIST :
 
 ✨ Just built a Minimal Note App using HTML, CSS, and Vanilla JavaScript – no libraries, no frameworks, no JSON, and absolutely no onclick in HTML. Pure DOM-based, clean OOP logic 💻✨
 
