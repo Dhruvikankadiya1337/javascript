@@ -2,6 +2,7 @@
 
 An interactive MCQ Quiz Application built using HTML, CSS, and JavaScript.
 This project is designed to test users’ basic knowledge of web technologies while providing a smooth and engaging quiz experience.
+
 ---
 
 🚀 Project Purpose
