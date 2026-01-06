@@ -2,9 +2,6 @@
 
 An interactive MCQ Quiz Application built using HTML, CSS, and JavaScript.
 This project is designed to test users’ basic knowledge of web technologies while providing a smooth and engaging quiz experience.
-
-The application includes a 60-second countdown timer for each quiz session and displays the final score at the end, making it suitable for learning, practice, and small assessments.
-
 ---
 
 🚀 Project Purpose
@@ -34,6 +31,14 @@ The application includes a 60-second countdown timer for each quiz session and d
 🎨 Simple and user-friendly UI
 
 💻 Fully responsive design
+
+🛠️ Built With
+
+HTML – Structure of the application
+
+CSS – Styling and layout
+
+JavaScript – Quiz logic, timer, score calculation, and DOM manipulation
 
 
 output: https://drive.google.com/file/d/1p8OfhRXKxctxcsT6qcZDeaE4t8HEld5h/view?usp=sharing
